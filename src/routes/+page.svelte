@@ -1,11 +1,9 @@
 <script>
-	import logo from '$lib/assets/logo.png?enhanced';
-
-	console.log(logo);
+	import logo from '$lib/assets/logo.png';
 </script>
 
 <div class="center">
-	<enhanced:img src={logo} alt="DL Kommunikation" />
+	<img src={logo} alt="DL Kommunikation" />
 	<div class="inner">
 		<h1>DL Kommunikation: Website offline</h1>
 		<p>
